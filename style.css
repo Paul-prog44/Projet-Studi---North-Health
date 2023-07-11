@@ -1,6 +1,7 @@
 main {
     width: 70%;
     margin:auto;
+    height: 100vh;
 }
 
 #imageAccueilMedecin {
@@ -13,4 +14,18 @@ main {
 
 .logoReseau {
     width: 30px;
+}
+
+.fenetreConnexion{
+    width: 400px;
+    border: solid 1px;
+    border-color: rgba(0,0,0, 24%);
+    border-radius:20px;
+    padding: 20px;
+    
+}
+
+#boutonConnexion {
+    display: flex;
+    justify-content: space-between;
 }
