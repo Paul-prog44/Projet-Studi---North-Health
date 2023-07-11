@@ -3,9 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Accueil North Health</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <img src="img/Logo.png" alt="Logo de North Health">
+            <a class="navbar-brand" href="#">North Health</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Nos centres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Votre compte</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="d-flex justify-content-end">
+            <a class="btn btn-primary mt-5 mb-5" role="button" aria-disabled="true">Prendez rendez-vous</a>
+        </div>
+        <div class="d-flex">
+            <div class="me-5">
+                <p>
+                    La société HEALTH NORTH fait partie des leaders européens sur les prélèvements médicaux pour les particuliers.
+                    Fondé en 1987 avec l'ouverture de trois laboratoires diagnostiques et d'imagerie au Danemark, le
+                    groupe s'est rapidement développé en appliquant une stratégie d'acquisition de laboratoires
+                    partenaires de qualité sur l'ensemble du continent européen.
+                    Cette année, Health NORTH fusionne avec la grande entreprise d'hospitalisation privée, présente en
+                    Suède, en Norvège, en Finlande, en France et au Royaume-Uni. Grâce à cette fusion, la structure
+                    devient alors le leader incontesté des services diagnostiques et d'hospitalisation en Europe.
+                    Health NORTH exploite son expertise en médecine de laboratoire, en imagerie et en pathologie pour
+                    fournir des réponses aux questions diagnostiques dans toutes les disciplines médicales. Notre
+                    catalogue de services couvre tous les aspects du diagnostic, notamment dans les domaines suivants :
+                </p>
+                <ul>
+                    <li>Chirurgie ambulatoire</li>
+                    <li>Hospitalisation;</li>
+                    <li>Imagerie médicale</li>
+                    <li>Médecine reproductive et génétique</li>
+                    <li>Cytopathologie et biologie médicale;</li>
+                    <li>Tests spécialisés</li>
+                </ul>
+            </div>
+            <div>
+                <img src="img/alexandr-podvalny-tE7_jvK-_YU-unsplash.jpg" alt="image d'une médecin" id="imageAccueilMedecin">
+            </div>
+        </div>    
+    </main>
+    <footer class="navbar fixed-bottom bg-body-tertiary">
+        <div class="container-fluid">
+          <p class="navbar-brand" href="#">North Health &copy 2023</p>
+          <a class="navbar-brand text-muted" href="#">Conditions d'utilisation</a>
+        </div>
+    </footer>
 </body>
 </html>
