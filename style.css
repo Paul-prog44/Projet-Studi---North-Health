@@ -1,7 +1,6 @@
 main {
     width: 70%;
     margin:auto;
-    height: 100vh;
 }
 
 #imageAccueilMedecin {
@@ -9,7 +8,7 @@ main {
 }
 
 #imageAccueilBloc {
-    width: 700px;
+    width: 500px;
 }
 
 .logoReseau {
@@ -28,4 +27,8 @@ main {
 #boutonConnexion {
     display: flex;
     justify-content: space-between;
+}
+
+footer {
+    margin-top: 30px;
 }
