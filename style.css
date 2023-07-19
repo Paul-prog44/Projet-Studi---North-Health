@@ -15,6 +15,10 @@ main {
     width: 30px;
 }
 
+.avatarProfil {
+    width : 20px;
+}
+
 .fenetreConnexion{
     width: 400px;
     border: solid 1px;
